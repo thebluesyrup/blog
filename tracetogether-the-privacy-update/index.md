@@ -119,6 +119,8 @@ iPhone10,4R)1:510731179958:ios:28487b80a62459446d5317bsg.gov.tech.bluetrace  
 
 </details>
 
+Internally, the TraceTogether
+
 Unfortunately, [we can't easily decode this information](https://stackoverflow.com/questions/54461349/how-to-decrypt-firebase-requests-to-app-measurement-com/54463682). But we can still infer from the readable sections what kind of data is being sent.
 
 Furthermore, we can create links to Google's documentation on data that is automatically collected:
@@ -151,7 +153,7 @@ Overall, while removing WOGAA Snowplow is a good step in the right direction, th
 
 1. Transparency
 
-    Other than via email requests or similar mediums, the TraceTogether team have not publicly acknowledged (on their website, social media or changelogs) that they collected data from their users. Their release notes also do not state the removal of the analytics platform.
+    Other than via email requests or similar mediums, the TraceTogether team have not publicly acknowledged (on their website, social media or changelogs) that they collected data from their users.
 
     Furthermore, they have not stated how they would handle data that has already been collected.
 
@@ -161,6 +163,6 @@ Overall, while removing WOGAA Snowplow is a good step in the right direction, th
 
     While removing WOGAA Snowplow is a great step to ensuring user privacy, they have neglected to disable Firebase analytics. This seems to be a missed opportunity to sort out the analytics problem as a whole.
 
-Overall, the stance of this article stems from the idea that, if a a company who has to abide with strict privacy laws such as GDPR, it is fair to assume that the technologically-progressive government can do the same, if not better.
+Overall, the stance of this article stems from the idea that, if a company who has to abide with strict privacy laws such as GDPR, it is fair to assume that the technologically-progressive government can do the same, if not better.
 
 > Author's note: I've personally contacted the TraceTogether team via email and have thanked them for working around the clock to making this app possible. I wish nothing but the best for the TraceTogether Team and their future endeavors and hope that this can be taken as a learning opportunity to improve their processes and be more transparent to their users.
