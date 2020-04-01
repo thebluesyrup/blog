@@ -127,7 +127,7 @@ Internally, the TraceTogether
 
 Unfortunately, [we can't easily decode this information](https://stackoverflow.com/questions/54461349/how-to-decrypt-firebase-requests-to-app-measurement-com/54463682). But we can still infer from the readable sections what kind of data is being sent.
 
-Furthermore, we can create links to Google's documentation on data that is automatically collected:
+Furthermore, we can look at Google's documentation on data that is automatically collected:
 
 - https://support.google.com/firebase/answer/6317485?hl=en&ref_topic=6317484
 - https://support.google.com/firebase/answer/6317486?hl=en&ref_topic=6317484
