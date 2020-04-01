@@ -25,9 +25,7 @@ However, the keen-eyed may have noticed another set suspiciously analytics-like 
 
 Both of these services are Google-owned analytics platforms.
 
-The TraceTogether app uses Firebase to for SMS OTP authentication.
-
-To make it easier to integrate in the app, they've opted to use the Firebase SDK. This provides convenience functions to more quickly-integrate the Firebase services ino the app. This however also meant that certain telemtry would be collected by default. This results in the unwatned performance analytics that we're going to look into.
+The TraceTogether app uses Firebase (a Google brand) for SMS OTP authentication. To make it easier to integrate in the app, they've opted to use the Firebase SDK. This provides convenience functions to more quickly-integrate the Firebase services ino the app. This however also meant that certain telemtry would be collected by default. This results in the unwatned performance analytics that we're going to look into.
 
 Upon closer inspection, we notice these data being sent:
 
