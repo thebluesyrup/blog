@@ -23,7 +23,11 @@ However, the keen-eyed may have noticed another set suspiciously analytics-like 
 - https://app-measurement.com/a
 - https://firebaselogging-pa.googleapis.com/v1/firelog/legacy/batchlog
 
-Both of these services are Google-owned analytics platforms. Upon closer inspection, we notice these data being sent:
+Both of these services are Google-owned analytics platforms.
+
+Internally, the TraceTogether app uses the Firebase SDK to allow for SMS OTP authentication. This however also meant that certain telemtry would be collected by default.
+
+Upon closer inspection, we notice these data being sent:
 
 <details>
 <summary>Data sent to app-measurement.com</summary>
@@ -122,8 +126,6 @@ iPhone10,4R)1:510731179958:ios:28487b80a62459446d5317bsg.gov.tech.bluetrace  
 ```
 
 </details>
-
-Internally, the TraceTogether
 
 Unfortunately, [we can't easily decode this information](https://stackoverflow.com/questions/54461349/how-to-decrypt-firebase-requests-to-app-measurement-com/54463682). But we can still infer from the readable sections what kind of data is being sent.
 
