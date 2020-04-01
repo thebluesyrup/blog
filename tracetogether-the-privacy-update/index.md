@@ -12,7 +12,7 @@ I used [Telerik Fiddler 4](https://www.telerik.com/download/fiddler) as a networ
 
 ![TraceTogether network logs](./media/tracetogether-network-logs.png)
 
-Web requests sent by my iPhone when opening TraceTogether for the first time and signing upThe first thing I noticed is there were no more requests to snowplow-mobile.wogaa.gov.sg. This is great news! This means that the TraceTogether Team have reverted the accidental inclusion of WOGAA Snowplow.
+The first thing I noticed is there were no more requests to snowplow-mobile.wogaa.gov.sg. This is great news! This means that the TraceTogether Team have reverted the accidental inclusion of WOGAA Snowplow.
 
 However, the keen-eyed may have noticed another set suspiciously analytics-like URLs:
 
