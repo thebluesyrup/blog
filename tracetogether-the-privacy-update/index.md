@@ -163,6 +163,6 @@ Overall, while removing WOGAA Snowplow is a good step in the right direction, th
 
     While removing WOGAA Snowplow is a great step to ensuring user privacy, they have neglected to disable Firebase analytics. This seems to be a missed opportunity to sort out the analytics problem as a whole.
 
-Overall, the stance of this article stems from the idea that, if a company who has to abide with strict privacy laws such as GDPR, it is fair to assume that the technologically-progressive government can do the same, if not better.
+Overall, the stance of this article stems from the idea that, if a company who has to abide with strict privacy laws such as GDPR can be transparent, it is  fair to assume that the technologically-progressive government can do  the same, if not better.
 
 > Author's note: I've personally contacted the TraceTogether team via email and have thanked them for working around the clock to making this app possible. I wish nothing but the best for the TraceTogether Team and their future endeavors and hope that this can be taken as a learning opportunity to improve their processes and be more transparent to their users.
