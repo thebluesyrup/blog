@@ -151,7 +151,7 @@ From [Google's documentation](https://firebase.google.com/docs/analytics/configu
 
 > Note: `Info.plist` is file where app-wide configuration (such as requested permissions) are stored.
 
-With this in mind, it seems like this was an honest oversight from the team. I've already enquired about the Firebase analytics a week prior, so they may have forgotten to disable it.
+With this in mind, it seems like this was an honest oversight from the team. I've already enquired about the Firebase analytics a week prior, and they may have forgotten to disable it.
 
 ## Conclusion
 
@@ -163,12 +163,12 @@ Overall, while removing WOGAA Snowplow is a good step in the right direction, th
 
     Furthermore, they have not stated how they would handle data that has already been collected.
 
-    Even though this the inclusion of the analytics platform was accidental, they should have been more transparent about their mistake and take the opportunity to reassure their users that the issue has been resolved.
+    Even though the inclusion of the analytics platform was accidental, they should have been more transparent about their mistake and take the opportunity to reassure their users that the issue has been resolved.
 
 2. Firebase analytics
 
     While removing WOGAA Snowplow is a great step to ensuring user privacy, they have neglected to disable Firebase analytics. This seems to be a missed opportunity to sort out the analytics problem as a whole.
 
-Overall, the stance of this article stems from the idea that, if a company who has to abide with strict privacy laws such as GDPR can be transparent, it is  fair to assume that the technologically-progressive government can do  the same, if not better.
+Overall, the stance of this article stems from the idea that, if a company who has to abide with strict privacy laws such as GDPR can be transparent, it is fair to assume that the technologically-progressive government can do the same, if not better.
 
 > Author's note: I've personally contacted the TraceTogether Team via email and have thanked them for working around the clock to making this app possible. I wish nothing but the best for the TraceTogether Team and their future endeavors and hope that this can be taken as a learning opportunity to improve their processes and be more transparent to their users.
