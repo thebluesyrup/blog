@@ -1,6 +1,10 @@
 # TraceTogether: the privacy update
 
-> Author's note: In this article, we will only be exploring the iOS app. Due to my inexperience with Android apps, I have refrained from discussing about it. I also personally thank the TraceTogether Team for realising the idea in such a short timeframe. This article is meant to explore a very specific issue and should not be used to discredit the entire TraceTogether initiative.
+> Author's note: In this article, we will only be exploring the iOS app. Due to my inexperience with Android apps, I have refrained from discussing about it. I also personally thank the TraceTogether Team for realising the idea in such a short timeframe.
+>
+> This article was written to tackle a specific, microscopic issue with the TraceTogether app and is not intended to discredit the TraceTogether initiative. TraceTogether was created with good intentions and this article is meant to provide my findings and opinions on a very specific matter.
+>
+> These issues do happen in software development and TraceTogether is no exception. The purpose of the TraceTogether app makes this a more sensitive issue than under normal circumstances and therefore should be treated as such.
 
 On 31st March 2020, GovTech released an update for TraceTogether iOS app.
 
